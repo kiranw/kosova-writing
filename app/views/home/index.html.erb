@@ -1,8 +1,173 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
 
-asdasdasdas
-adasdasdas
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>Kosova Writing Center | Private Essay Consultation</title>
+	<link rel="shortcut icon" type="image/png" href="/graphics/favicon.ico" />
+	<link rel="stylesheet" href="/css/style.css" />
+
+	    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/freelancer.css" rel="stylesheet">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="/js/scripts.js"></script>
+    <script type="text/javascript" src="/js/smoothscroll.js"></script>
+    <!-- // <script type="text/javascript" src="js/parallax.js"></script> -->
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
 
 
-<img src="/graphics/pic1.jpg" />
+<body id="page-top" class="index" onload="load_home();">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top" onclick = "load_home(); smooth_top();"><img class="navbar-brand-img" src="graphics/logo.png" />Kosova Writing Center</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top" onclick = "load_home();"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#samples" onclick="load_samples(); smooth_samples();">Writing Samples</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about" onclick="smooth_about();">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#tutoring" onclick="smooth_tutoring();">Tutoring</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <img class="ina-pic" src="/graphics/pic1.jpg" />
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-text">
+	                    <div class="intro-section intro-section-main">
+	                        <span class="intro-title">What is the Kosova Writing Center?</span>
+	                        <span class="description">The Kosova Writing Center offers students a <span class="highlight">private college essay consulation.</span> You will begin with a <span class="highlight">30 minute initial consultation</span> session with me, <span class="highlight">Ina Kosova</span>. Then, you will submit your first college essay draft. I will <span class="highlight">edit your essay and call you for a second 30 min session</span>, discussing my edits and recommendations. You will then submit your final college essay draft. I will <span class="highlight">edit this final draft and call you for a final 30 minute</span> consultation session. </span>
+	                    </div>
+	                    <div class="intro-section">
+	                        <span class="intro-title">How much does it cost?</span>
+	                        <span class="description">This private consulation will cost $150.00. This will include a 1 hr 30min phone consulation and two thorough draft edits and recommendations. </span>
+	                        <br><br>
+	                        <span class="intro-title">Getting Started</span>
+	                        <span class="description">Spots are quickly filling up so please contact me as soon as possible! Schedule a consultation on the <a href="#tutoring">tutoring</a> tab! </span>
+	                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</header>
+
+    <div id="samples">
+        <div class="sample-container">
+            <div class="row">
+            	<div class="col-lg-12">
+            		<div class="samples">
+            			<div class="section-sample section-sample-1">
+            				<span class="sample-title">Writing Sample 1 (Oxford)</span><br>
+            				<span class="sample-text">"I trudge forward through the grass, over the cattails and the thistles and I am finally at the barbed wire fence where the entrance should be. Standing on my tiptoes, clutching at the wire to steady myself, I see a pile of bricks and no pews. No bell in the bell tower, no stuffy scent of incense, no flickering flame of penny candles. I try to lean in closer, squinting into the darkness, when a figure emerges beside me."
+            				</span>
+            			</div>
+            			<div class="section-sample section-sample-2">
+            				<span class="sample-title">Writing Sample 2 (Yale)</span><br>
+            				<span class="sample-text">"Maybe it’s different along the coast but here, in the shadow of these mountains, there seems a centuries old secret brewing, waiting, in the distance; the different world of the North and the Kanun and the blood law and things I’d only ever read in Kadare novels. Maybe that’s why Xhaxhi Enveri felt he had to dig himself in with those bunkers, maybe he was afraid the people would see his frail figure in comparison to those towering peaks and laugh, and not be afraid, and rise up and scream scream scream so that the world would finally take notice."
+            				</span>
+            			</div>
+            		</div>
+            	</div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="about-title"> About </div>
+        <div class="about-pic">
+            <img src="/graphics/pic2.jpg" />
+        </div>
+        <div class="about-text">
+            <p> Hello! My name is Ina Kosova and I have recently graduated from the University of North Carolina at Chapel Hill as a Morehead-Cain scholar, Phi Beta Kappa. I understand well the stressful process that is writing a college essay. However, it was because of my college essay that I had the option of attending Yale, Princeton, or UNC on a full, four year scholarship my senior year of high school. </p>
+            ​
+            <p> I have served as a tutor to  high school seniors in the past, and they have gotten accepted to Princeton, UPenn, Yale, Duke, and Harvard, to name a few. </p>
+​
+            <p> I will now be starting my Master's program in Modern Middle East Studies at Oxford University in the Fall. But first, I'd like to spend my summer getting to know you through your college essay; together, we can make sure you successfully communicate your goals, aspirations, and convictions! </p>
+
+            <br>
+            <a id="tutoring-anchor" href="http://www.linkedin.com/in/inakosova">View LinkedIn Profile</a>
+        </div>
+    </div>
+
+
+    <div id="tutoring">
+        <div class="about-title"> Tutoring </div>
+        <div class="tutoring-reservation">
+            <form action="MAILTO:ikoswriting@gmail.com" method="post" enctype="text/plain">
+                <span class="name-label">Name: </span><input type="text" name="name" value="your name">
+                <span class="name-label">E-mail: </span><input type="text" name="mail" value="your email"><br><br>
+                <span class="name-label">Message:</span>
+                <input type="text" name="comment" value="your comment" size="50"><br><br>
+                <input class="btn" type="submit" value="Send">
+                <input class="btn"  type="reset" value="Reset">
+            </form>
+        </div>
+        <div class="tutoring-title">Step 1: Schedule Appointment</div>
+        <div class="tutoring-text">
+            When scheduling your appointment, please do not forget to include the following information:
+
+            Date and time you are available for your first 30min consultation.<br><br>
+
+            Once I receive your email, I will contact you in order to confirm our appointment.
+        </div>
+        <hr>
+        <div class="tutoring-title">Step 2: Submit Your First Draft </div>
+        <div class="tutoring-text">
+            After we have held a 30 minute brainstorming session, I will instruct you to submit your first draft on an agreed-upon deadline. <br><br>
+
+            Please submit your draft as LASTNAME_draft.docx to ikoswriting@gmail.com. <br><br>
+
+            I will respond with edits and recommendations within 24 hours. I will then contact you for a second 30 min phone consultation session.        
+        </div>
+        <hr>
+        <div class="tutoring-title">Step 3: Submit Final Draft </div>
+        <div class="tutoring-text">
+            After we have held a second, 30min consultation session, I will instruct you to submit your final draft on an agreed-upon deadline.<br><br>
+
+            Please submit your draft as LASTNAME_final.docx to ikoswriting@gmail.com.<br><br>
+
+            I will respond with edits and recommendations within 24 hours. I will then contact you for a final 30 min phone consultation session.
+        </div>
+    </div>
+
+    
+</body>
+
+</html>
