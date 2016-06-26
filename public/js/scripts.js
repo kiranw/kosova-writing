@@ -29,7 +29,7 @@ function load_tutoring(){
 
 function smooth_about(){
     $.smoothScroll({
-        scrollTarget: $("#about"),
+        scrollTarget: $("#about-anchor"),
         easing: 'swing'
     });
 }
